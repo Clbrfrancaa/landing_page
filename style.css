@@ -7,6 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
+    
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -20,10 +21,10 @@ header{
     text-align: center;
     padding-top: 2%;
     text-decoration: none;
-
+    
 }
 
-a{
+.menu a{
     text-decoration: none;
     color: black;
 }
@@ -44,6 +45,9 @@ a{
     
     
 }
+#butao a{
+    text-decoration: none;
+}
 
 #quoteButton {
     color: white;
@@ -61,24 +65,36 @@ article{
 #primTitulo{
     color: orangered;
     font-size: 15px;
+    padding-right: 900px;
 }
 #segTitulo{
     font-size: 40px;
+    padding-right: 900px;
 }
 #legPrincipal{
     width: 580px;
     
 }
 .dados{
+
     display: inline-flex;
     align-items: center;
     width: 50%;
     flex-wrap: wrap;   
 }
+#dados1{
+    
+    padding-top: 300px;
+
+}
 #dados2{
+    
+    padding-top: 300px;
     padding-left: 10%;
 }
 #dados3{
+    
+    padding-top: 300px;
     padding-left: 10%;
 }
 div h1{
